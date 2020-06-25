@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <meta charset="utf-8">
+    <title>ProDent-Dentist Hospital</title>
+      <style media="screen">
+      blink {
+  -webkit-animation: 1s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 1s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+      .mainmenu{
+        width:100%;
+        height:110px;
+        font-family: Century Gothic;
+
+      }
+      .logo{
+        width:20%;
+        height:100%;
+        float:left;
+      }
+      img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+    }
+    .hom{
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: #008CBA;
+      padding: 15px 32px;
+      margin-top:30px;
+      border-radius: 10px;
+      font-family: Century Gothic;
+    }
+    .btn{
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin-top:20px;
+      background-color:white;
+      font-family: Century Gothic;
+    }
+    .last{
+      border: none;
+      color:#505050;
+      background-color:black;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-left:30px;
+      cursor: pointer;
+      font-family: Century Gothic;
+    }
+    button.last:hover{
+      color:#008CBA;
+    }
+    button.btn:hover{
+      color:#008CBA;
+    }
+    .second{
+      width:101.2%;
+      height:130px;
+      background-color:whitesmoke;
+      margin-left:-8px;
+    }
+    .bgimage{
+      width:101.2%;
+      height:100%;
+      margin-left:-8px;
+    }
+    .appoint{
+      width:101.2%;
+      height:145px;
+      background-color:#008CBA;
+      margin-left:-8px;
+      border:none;
+    }
+    .appointt{
+    width:200px;
+    height:70px;
+    background-color: white;
+    color:black;
+    float:right;
+    margin-top:39px;
+    margin-right:70px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    font-family: Century Gothic;
+    }
+    .hovdiv{
+      width:100px;
+      height:100px;
+      background-color:whitesmoke;
+      border-radius:50px;
+      float:left;
+      margin-left:45px;;
+    }
+    div.hovdiv:hover{
+      background-color:#008CBA;
+      text-decoration-color:white;
+    }
+    .hovdive{
+      width:100px;
+      height:100px;
+      background-color:white;
+      border-radius:50px;
+      float:left;
+      margin-left:45px;;
+    }
+    div.hovdive:hover{
+      background-color:#008CBA;
+      text-decoration-color:white;
+    }
+    tr:hover{
+      color:#008CBA;
+    }
+    a:hover{
+      color:#008CBA;
+      cursor:pointer;
+    }
+    .fourimages{
+      width:24.9%;
+      height:100%;
+      float:left;
+      margin-left:1px;
+    }
+
+
+      </style>
+  </head>
+   <body>
+
+<!--menu bar coding-->
+
+     <div class="mainmenu">
+       <div class="logo">
+         <img src="prologo.png" alt="">
+       </div>
+       <button  onclick="document.location = 'index.html'" class="hom">Home</button>
+       <button  onclick="document.location = 'about.html'" class="btn">About</button>
+       <button onclick="document.location = 'OurTeam.html'" class="btn">Our Team</button>
+       <button onclick="document.location = 'gallery.html'" class="btn">Gallery</button>
+       <button  onclick="document.location = 'doctors.html'" class="btn">Doctors</button>
+       <button onclick="document.location = 'register.html'" class="btn">Register</button>
+       <button onclick="document.location = 'contact.html'" class="btn">Contacts</button>
+     </div>
+
+ <!--coding for location , timmings , contact details .-->
+
+     <div class="second">
+       <i class="fa fa-map-marker" aria-hidden="true" style="font-size:65px;color:#008CBA;margin-left:150px;margin-top:33px;float:left;"></i>
+       <p style="float:left;margin-left:45px;margin-top:40px;font-family: Century Gothic;"><b>86/7, Swaroop Nagar</b><br>Kanpur Nagar-208001</p>
+       <i class="fa fa-clock-o" aria-hidden="true"style="font-size:65px;color:#008CBA;margin-left:150px;margin-top:33px;float:left;"></i>
+       <p style="float:left;margin-left:45px;margin-top:40px;font-family: Century Gothic;"><b>Opening Hours</b><br>Mon - Sat: 8:00 - 19:00</p>
+       <i class="fa fa-mobile" aria-hidden="true" style="font-size:65px;color:#008CBA;margin-left:150px;margin-top:33px;float:left;"></i>
+       <p style="float:left;margin-left:45px;margin-top:40px;font-family: Century Gothic;"><b>+91 9410 2277 89</b><br>Call us now!</p>
+     </div>
+
+ <!--coding for image and animated text-->
+ <div class="bgimage">
+<img src="bg.jpg">
+
+</div>
+
+
+<!--coding for appointment area-->
+<div class="appoint"><div style="width:50%;height:100%;float:left;">
+<pre style="font-family: Century Gothic;"><h1 style="color:white;margin-left:50px;padding-top: 20px;">MAKE AN APPOINTMENT
+</h1><h4 style="color:white;margin-left:50px;"><i>OBSTETRICS & GYNECOLOGY</i></h4></div>
+<button class="appointt">APPOINTMENT NOW</button>
+</div>
+
+<!--coding for why choose us-->
+
+<center><b><h1 style="font-family: Century Gothic;font-size: 45px;padding-top:30px;">WHY CHOOSE US</h1></b></center>
+
+<!--coding for hovering divs and texts-->
+<br><br>
+<div class="hovdiv"><center><i class="fa fa-hospital-o" aria-hidden="true" style="font-size:50px;padding-top:25px;"></i><center></div>
+<pre style="float:left;margin-left:10px;color:grey;"><b style="color:black;">PATIENT
+HEALTHCARE</b>
+
+With over 2,000 patients cared for
+since our inception, we put Patients
+satisfaction to all our endeavors.</pre>
+<div class="hovdiv"><center><i class="fa fa-ambulance" aria-hidden="true" style="font-size:50px;padding-top:25px;"></i><center></div>
+<pre style="float:left;margin-left:10px;color:grey;"><b style="color:black;">AMBULANCE
+SERVICES</b>
+
+ProDent Hospital offers eminent
+medical and ambulance services
+with medical requirements .</pre>
+<div class="hovdiv"><center><i class="fa fa-medkit" aria-hidden="true" style="font-size:50px;padding-top:25px;"></i><center></div>
+<pre style="float:left;color:grey;margin-left:10px;"><b style="color:black;">PATIENT
+TREATMENTS</b style="color:grey;">
+
+ProDent Hospital provides complete
+Treatments and solutions for all types
+of heath problems.</pre>
+
+<!--coding for clinic image and about-->
+
+<img src="clinic.jpg" style="width:45%;height:40%;margin-top:150px;border:5px solid#008CBA;float:left;margin-left:50px;">
+<pre style="float:left;margin-top:113px;font-family: Century Gothic;margin-left:40px;color:grey;"><b><p style="font-size:30px;color:black;">WELCOME TO PRODENT
+HOSPITAL</p></b>Saral Nursing Home is envisioned as a centre of excellence as it is
+committed to ensure world class, innovative as well as unsurpassed
+care for patients in a most comfortable and safe environment. Our
+exceptionally talented panel lays emphasis on achieving the wellness
+of a person’s overall health-his mind, body and soul while encouraging
+the patients to adopt healthier lifestyles for greater longevity. We
+keep our patients at the centre of everything we do and tailor care to
+their unique needs & goals. When admitted to the hospital, you are
+under the care of a Saral Nursing Home care team. This team includes
+physicians, nurses,case managers and other health care professionals
+
+<h2 style="color:#008CBA">CALL US TODAY !</h2><h2 style="color:black;"><blink>+91-9410227789</blink></h2></pre>
+
+<!--coding for opaced image-->
+
+<div style="width:101.2%;height:400px;background-image:url('opaceimage.jpg');margin-top:70%;background-size:100% 100%;margin-left:-8px;">
+<div style="width:101.2%;margin-left:-14px;height:100%;background-color:black;margin-top:70%;opacity:0.7;font-family: Century Gothic;color:white;"><br><br><br><br><br><br><br><br>
+<div style="width:55px;height:70px;margin-left:200px;border:2px solid#008CBA;float:left;"></div>
+<div style="width:55px;height:70px;margin-left:200px;border:2px solid#008CBA;float:left;"></div>
+<div style="width:55px;height:70px;margin-left:200px;border:2px solid#008CBA;float:left;"></div>
+<div style="width:55px;height:70px;margin-left:200px;border:2px solid#008CBA;float:left;"></div>
+
+
+<div style="width:55px;height:70px;margin-left:200px;float:left;"><pre><center><b><h1>531</h1></b>X-rays</center><pre></div>
+<div style="width:55px;height:70px;margin-left:195px;float:left;">
+<pre><center><b><h1> 14K</h1></b>  Tooth
+  Brushes</center></pre></div>
+<div style="width:55px;height:70px;margin-left:207px;float:left;">
+<pre><center><b><h1> 678</h1></b>Extractions</center><pre></div>
+<div style="width:55px;height:70px;margin-left:215px;float:left;">
+<pre><center><b><h1>2134</h1></b>Happy
+Pacients</center></pre></div>
+</div>
+</div>
+
+<!--coding for our sevices text-->
+
+<div style="width:101.2%;height:650px;margin-left:-8px;background-color:whitesmoke;">
+<br><br><br><br><center><h1 style="font-family: Century Gothic;font-size:50px;">Our Services</h1></center><center><p style="font-family: Century Gothic;font-size:30px;color:grey;">ProDent Hospital Offering A Wide Range Of Services</p></center>
+
+<!--coding for hovering icons-->
+
+<div class="hovdive"><center><img src="img1.png" style="width:65px;margin-top:23px;"><c/enter></div>
+<pre style="float:left;margin-left:10px;color:grey;"><b style="color:black;">NEUROLOGY</b>
+
+Looking towards the hardship faced
+by patients suffering from</pre>
+
+<div class="hovdive"><center><img src="img2.png" style="width:65px;margin-top:23px;"><c/enter></div>
+<pre style="float:left;margin-left:10px;color:grey;"><b style="color:black;">GASTROENTEROLOGY
+</b>
+
+Equiped with latest technology &
+trends like harmonic...</pre>
+
+<div class="hovdive"><center><img src="img3.png" style="width:65px;margin-top:23px;"><c/enter></div>
+<pre style="float:left;margin-left:10px;color:grey;"><b style="color:black;">ORTHOPAEDICS
+</b>
+
+I Provide complete orthopaedics
+solutions both surgical and</pre>
+
+<br><br><br><br><br><br><br><br><br>
+<div class="hovdive"><center><img src="img4.png" style="width:65px;margin-top:23px;"><c/enter></div>
+<pre style="float:left;margin-left:10px;color:grey;"><b style="color:black;">NEUROLOGY</b>
+
+Looking towards the hardship faced
+by patients suffering from</pre>
+
+<div class="hovdive"><center><img src="img5.png" style="width:65px;margin-top:23px;"><c/enter></div>
+<pre style="float:left;margin-left:10px;color:grey;"><b style="color:black;">GASTROENTEROLOGY
+</b>
+
+Equiped with latest technology &
+trends like harmonic...</pre>
+
+<div class="hovdive"><center><img src="img6.png" style="width:65px;margin-top:23px;"><c/enter></div>
+<pre style="float:left;margin-left:10px;color:grey;"><b style="color:black;">ORTHOPAEDICS
+</b>
+
+I Provide complete orthopaedics
+solutions both surgical and</pre>
+</div>
+
+<!--coding for 4-images-->
+
+<div style="width:101.2%;height:266px;margin-left:-8px;">
+ <div class="fourimages"><img src="g1.jpg"></div>
+ <div class="fourimages"><img src="g2.jpg"></div>
+ <div class="fourimages"><img src="g3.jpg"></div>
+ <div class="fourimages"><img src="g4.jpg"></div>
+</div>
+
+
+<!--coding for green div-->
+
+<div style="width:101.2%;height:180px;margin-left:-8px;background-color:#008CBA;">
+ <h1 style="color:white;font-family: Century Gothic;margin-left:60px;padding-top:50px;float:left;">Subscribe Us</h1>
+ <input type="email" placeholder="   Your E-mail" style="width:200px;height:50px;float:left;border-radius:5px;border:none;margin-left:600px;margin-top:65px;">
+ <button type="button" name="button"style="width:120px;height:50px;border-radius:5px;border:none;margin-top:65px;background-color:#282828;cursor:pointer;color:#008CBA;margin-left:-5px;">Subscribe</button>
+</div>
+
+<!--coding for green black opaced div-->
+
+<div style="width:101.2%;height:610px;background-image:url('bgg.jpg');margin-left:-8px;font-family: Century Gothic;">
+
+  <div style="width:320px;height:600px;color:grey;float:left;">
+   <div style="width:300px;height:140px;margin-left:50px;">
+   <br><br><br><br><img src="prologo.png" alt=""></div><br><br><br><br><br><br>
+   <dl style="margin-left:65px;">
+   <dt>86/7, Swaroop Nagar Kanpur Nagar-208001,</dt><br>
+   <dt>Uttar Pradesh (India)<dt><br>
+   <dt><i class="fa fa-phone-square" aria-hidden="true" style="color:#008CBA;"></i>  +91-9410227789</dt><br>
+   <dt><i class="fa fa-envelope" aria-hidden="true" style="color:#008CBA;"></i>  info@prodenthospitals.com</dt><br>
+   <dt><h1 style="color:white;">Connect With Us</h1></dt>
+   <dt> </dt>
+   </dl>
+   <pre>           <i class="fa fa-pinterest" aria-hidden="true" style="color:white;cursor:pointer;"></i>   <i class="fa fa-quora" aria-hidden="true" style="color:white;cursor:pointer;"></i>   <i class="fa fa-instagram" aria-hidden="true" style="color:white;cursor:pointer;"></i>   <i class="fa fa-facebook-official" aria-hidden="true" style="color:white;cursor:pointer;"></i>   <i class="fa fa-behance-square" aria-hidden="true" style="color:white;cursor:pointer;"></i>   <i class="fa fa-twitter" aria-hidden="true" style="color:white;cursor:pointer;"></i>
+
+   </pre>
+  </div>
+
+  <div style="width:250px;height:600px;color:grey;float:left;margin-left:90px;">
+    <br><br><br><br><br><br>
+    <dl style="margin-left:65px;">
+    <dt><h3 style="color:white;">Our Services</h3></dt><br><br><br><br>
+    <dt><a>NEUROLOGY</a></dt><br>
+    <dt><a>GASTROENTEROLOGY</a><dt><br>
+    <dt><a>ORTHOPAEDICS</a></dt><br>
+    <dt><a>KIDNEY TRANSPLANT</a></dt><br>
+    <dt><a>CARDIAC SCIENCES</a></dt><br>
+    <dt><a>EAR NOSE THROAT</a></dt>
+    <dt> </dt>
+    </dl>
+  </div>
+
+  <div style="width:440px;height:400px;color:grey;float:left;margin-left:120px;margin-top:100px;border:1px solid#008CBA;"><br>
+  <h3 style="color:white;margin-left:25px">Opening Hours</h3><br><br><br>
+  <table style="margin-left:40px;">
+    <tr>
+      <td>Monday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+
+
+
+
+  </table>
+  </div>
+</div>
+
+<!-- coding for last black div -->
+
+<div style="width:101.2%;height:70px;background-color:black;margin-left:-8px;color:#505050;font-family: Century Gothic;"><br>
+<pre style="float:left;">        Copyright ©2020 All rights reserved Powered By    </pre>
+<b style="color:#008CBA;cursor:pointer;float:left;padding-top:9.5px;">Quartz Technologies<b>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button  onclick="document.location = 'index.html'" class="last">Home</button>
+<button  onclick="document.location = 'about.html'" class="last">About</button>
+<button onclick="document.location = 'OurTeam.html'" class="last">Our Team</button>
+<button onclick="document.location = 'doctor.html'" class="last">Our Department</button>
+  <button onclick="document.location = 'contact.html'" class="last">Contact</button>
+</div>
+
+
+   </body>
+</html>

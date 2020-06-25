@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+            <link href="css/bootstrap.css" rel="stylesheet"/>
+            <link href="css/fontawesome-all.min.css" rel="stylesheet">
+            <link href="css/newcss.css" rel="stylesheet">
+            <link href="jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+		<title>Register</title>
+    <style media="screen">
+    blink {
+-webkit-animation: 1s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+animation: 1s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+0% {
+  visibility: hidden;
+}
+50% {
+  visibility: hidden;
+}
+100% {
+  visibility: visible;
+}
+}
+
+@keyframes condemned_blink_effect {
+0% {
+  visibility: hidden;
+}
+50% {
+  visibility: hidden;
+}
+100% {
+  visibility: visible;
+}
+}
+    .mainmenu{
+      width:100%;
+      height:110px;
+      font-family: Century Gothic;
+
+    }
+    .logo{
+      width:20%;
+      height:100%;
+      float:left;
+    }
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      display: block; /* remove extra space below image */
+  }
+
+  .btn{
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top:20px;
+    background-color:white;
+    font-family: Century Gothic;
+  }
+    button.btn:hover{
+    color:#008CBA;
+  }
+  .hom{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008CBA;
+    padding: 15px 32px;
+    margin-top:30px;
+    border-radius: 10px;
+    font-family: Century Gothic;
+  }
+    #playground-container {
+  height: 500px;
+  overflow: hidden !important;
+  -webkit-overflow-scrolling: touch;
+}
+div.regis{
+   height: 100%;
+background-repeat: no-repeat;
+background:url(https://i.ytimg.com/vi/4kfXjatgeEU/maxresdefault.jpg);
+font-family: 'Oxygen', sans-serif;
+    background-size: cover;
+}
+
+.main{
+margin:50px 15px;
+}
+
+h1.title {
+font-size: 50px;
+font-family: 'Passion One', cursive;
+font-weight: 400;
+}
+
+hr{
+width: 10%;
+color: #fff;
+}
+
+.form-group{
+margin-bottom: 15px;
+}
+
+label{
+margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 11px;
+  padding-top: 3px;
+}
+
+.main-login{
+background-color: #fff;
+  /* shadows and rounded borders */
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+.form-control {
+  height: auto!important;
+padding: 8px 12px !important;
+}
+.input-group {
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+}
+#button {
+  border: 1px solid #ccc;
+  margin-top: 28px;
+  padding: 6px 12px;
+  color: #666;
+  text-shadow: 0 1px #fff;
+  cursor: pointer;
+  -moz-border-radius: 3px 3px;
+  -webkit-border-radius: 3px 3px;
+  border-radius: 3px 3px;
+  -moz-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+  -webkit-box-shadow: 0 1px #fff inset, 0 1px #ddd;
+  box-shadow: 0 1px #fff inset, 0 1px #ddd;
+  background: #f5f5f5;
+  background: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #eeeeee));
+  background: -webkit-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+  background: -o-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+  background: -ms-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+  background: linear-gradient(top, #f5f5f5 0%, #eeeeee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee', GradientType=0);
+}
+.main-center{
+margin-top: 30px;
+margin: 0 auto;
+max-width: 400px;
+  padding: 10px 40px;
+background:#009edf;
+    color: #FFF;
+  text-shadow: none;
+-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
+
+}
+span.input-group-addon i {
+  color: #009edf;
+  font-size: 17px;
+}
+
+.login-button{
+margin-top: 5px;
+}
+
+.login-register{
+font-size: 11px;
+text-align: center;
+}
+.last{
+  border: none;
+  color:#505050;
+  background-color:black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left:30px;
+  cursor: pointer;
+  font-family: Century Gothic;
+}
+button.last:hover{
+  color:#008CBA;
+}
+
+
+    </style>
+	</head>
+	<body>
+    <!--menu bar coding-->
+
+    <div class="mainmenu">
+      <div class="logo">
+        <img src="prologo.png" alt="">
+      </div>
+      <button onclick="document.location = 'index.html'" class="btn">Home</button>
+      <button onclick="document.location = 'about.html'" class="btn">About</button>
+      <button onclick="document.location = 'OurTeam.html'" class="btn">Our Team</button>
+      <button onclick="document.location = 'gallery.html'" class="btn">Gallery</button>
+      <button onclick="document.location = 'doctors.html'" class="btn">Doctors</button>
+      <button onclick="document.location = 'register.html'" class="hom">Register</button>
+      <button onclick="document.location = 'contact.html'" class="btn">Contacts</button>
+    </div>
+
+<!-- coding of register area-->
+<div class="regis">
+    <div class="container">
+      <br><br><br><br><br>
+
+      <div class="row main">
+				<div class="main-login main-center">
+				<h5>Sign up once and watch any of our free demos.</h5>
+					<form class="" method="post" action="#">
+
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label">Your Name</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label">Your Email</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="username" class="cols-sm-2 control-label">Username</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label">Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group ">
+							<a href="https://deepak646.blogspot.com/" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Register</a>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+
+		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+</div>
+<!--coding for clinic image and about-->
+
+<img src="clinic.jpg" style="width:45%;height:40%;margin-top:150px;border:5px solid#008CBA;float:left;margin-left:50px;">
+<pre style="float:left;margin-top:113px;font-family: Century Gothic;margin-left:40px;color:grey;background-color:white;border:none;"><b><p style="font-size:30px;color:black;">WELCOME TO PRODENT
+HOSPITAL</p></b>Saral Nursing Home is envisioned as a centre of excellence as it is
+committed to ensure world class, innovative as well as unsurpassed
+care for patients in a most comfortable and safe environment. Our
+exceptionally talented panel lays emphasis on achieving the wellness
+of a person’s overall health-his mind, body and soul while encouraging
+the patients to adopt healthier lifestyles for greater longevity. We
+keep our patients at the centre of everything we do and tailor care to
+their unique needs & goals. When admitted to the hospital, you are
+under the care of a Saral Nursing Home care team. This team includes
+physicians, nurses,case managers and other health care professionals
+
+<h2 style="color:#008CBA">CALL US TODAY !</h2><h2 style="color:black;"><blink>+91-9410227789</blink></h2></pre>
+
+<!-- coding for last black div -->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div style="width:101.2%;height:70px;background-color:black;margin-left:-8px;color:#505050;font-family: Century Gothic;"><br>
+<pre style="float:left;background-color:black;color:white;border:none;">        Copyright ©2020 All rights reserved Powered By    </pre>
+<b style="color:#008CBA;cursor:pointer;float:left;padding-top:9.5px;">Quartz Technologies<b>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button onclick="document.location = 'index.html'" class="last">Home</button>
+<button onclick="document.location = 'about.html'" class="last">About</button>
+<button onclick="document.location = 'OurTeam.html'" class="last">Our Team</button>
+<button onclick="document.location = 'doctors.html'" class="last">Our Department</button>
+<button onclick="document.location = 'contact.html'" class="last">Contact</button>
+</div>
+
+
+
+
+
+	</body>
+</html>

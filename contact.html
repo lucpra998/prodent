@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/fontawesome-all.min.css" rel="stylesheet">
+<link href="css/newcss.css" rel="stylesheet">
+<link href="jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>contact us</title>
+    <style media="screen">
+    .mainmenu{
+      width:100%;
+      height:110px;
+      font-family: Century Gothic;
+
+    }
+    .logo{
+      width:20%;
+      height:100%;
+      float:left;
+    }
+    img{
+      max-width: 100%;
+      max-height: 100%;
+      display: block; /* remove extra space below image */
+  }
+
+  .btn{
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top:20px;
+    background-color:white;
+    font-family: Century Gothic;
+  }
+    button.btn:hover{
+    color:#008CBA;
+  }
+  .hom{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008CBA;
+    padding: 15px 32px;
+    margin-top:30px;
+    border-radius: 10px;
+    font-family: Century Gothic;
+  }
+      #contatti{
+  background-color: #70c3be;
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+
+}
+tr:hover{
+  color:#008CBA;
+}
+a:hover{
+  color:#008CBA;
+  cursor:pointer;
+}
+.last{
+  border: none;
+  color:#505050;
+  background-color:black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left:30px;
+  cursor: pointer;
+  font-family: Century Gothic;
+}
+button.last:hover{
+  color:#008CBA;
+}
+
+    </style>
+  </head>
+  <body>
+    <!--menu bar coding-->
+
+
+        <div class="mainmenu">
+          <div class="logo">
+            <img src="prologo.png" alt="">
+          </div>
+          <button onclick="document.location = 'index.html'" class="btn">Home</button>
+          <button onclick="document.location = 'about.html'" class="btn">About</button>
+          <button onclick="document.location = 'OurTeam.html'" class="btn">Our Team</button>
+          <button onclick="document.location = 'gallery.html'" class="btn">Gallery</button>
+          <button onclick="document.location = 'doctors.html'" class="btn">Doctors</button>
+          <button onclick="document.location = 'register.html'" class="btn">Register</button>
+          <button onclick="document.location = 'contact.html'" class="hom">Contacts</button>
+        </div>
+
+
+
+
+    <div class="row" id="contatti">
+<div class="container mt-5" >
+
+    <div class="row" style="height:550px;">
+      <div class="col-md-6 maps" >
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-uppercase mt-3 font-weight-bold text-white">CONTACT US</h2>
+        <form action="">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control mt-2" placeholder="Name" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control mt-2" placeholder="Place" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="email" class="form-control mt-2" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="number" class="form-control mt-2" placeholder="Mobile no." required>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Add a comment" rows="3" required></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Accept all terms and condition
+                </label>
+              </div>
+            </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-light" type="submit">SUBMIT</button>
+            </div>
+          </div>
+        </form>
+        <div class="text-white">
+        <h2 class="text-uppercase mt-4 font-weight-bold">More Info</h2>
+
+        <i class="fas fa-phone mt-3"></i> <a href="tel:+">+91 9410 2277 89</a><br>
+        <i class="fas fa-phone mt-3"></i> <a href="tel:+">+91 9410 2657 89</a><br>
+        <i class="fa fa-envelope mt-3"></i> <a href="">prodent@rediffmail.com</a><br>
+        <i class="fas fa-globe mt-3"></i> 86/7, Swaroop Nagar Kanpur Nagar-208001<br>
+        <i class="fas fa-globe mt-3"></i> Srya Nagar 00184 , Roma<br>
+        <div class="my-4">
+        <a href=""><i class="fab fa-facebook fa-3x pr-4"></i></a>
+        <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
+        </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+</div>
+
+<!--coding for green div-->
+
+<div style="width:101.2%;height:180px;margin-left:-8px;background-color:#008CBA;">
+ <h1 style="color:white;font-family: Century Gothic;margin-left:60px;padding-top:50px;float:left;">Subscribe Us</h1>
+ <input type="email" placeholder="   Your E-mail" style="width:200px;height:50px;float:left;border-radius:5px;border:none;margin-left:600px;margin-top:65px;">
+ <button type="button" name="button"style="width:120px;height:50px;border-radius:5px;border:none;margin-top:65px;background-color:#282828;cursor:pointer;color:#008CBA;margin-left:-5px;">Subscribe</button>
+</div>
+
+<!--coding for green black opaced div-->
+
+<div style="width:101.2%;height:610px;background-image:url('bgg.jpg');margin-left:-8px;font-family: Century Gothic;">
+
+  <div style="width:320px;height:600px;color:grey;float:left;">
+   <div style="width:300px;height:140px;margin-left:50px;">
+   <br><br><br><br><img src="prologo.png" alt=""></div><br><br><br><br><br><br>
+   <dl style="margin-left:65px;">
+   <dt>86/7, Swaroop Nagar Kanpur Nagar-208001,</dt><br>
+   <dt>Uttar Pradesh (India)<dt><br>
+   <dt><i class="fa fa-phone-square" aria-hidden="true" style="color:#008CBA;"></i>  +91-9410227789</dt><br>
+   <dt><i class="fa fa-envelope" aria-hidden="true" style="color:#008CBA;"></i>  info@prodenthospitals.com</dt><br>
+   <dt><h1 style="color:white;">Connect With Us</h1></dt>
+   <dt> </dt>
+   </dl>
+
+  </div>
+
+  <div style="width:250px;height:600px;color:grey;float:left;margin-left:90px;">
+    <br><br><br><br><br><br>
+    <dl style="margin-left:65px;">
+    <dt><h3 style="color:white;">Our Services</h3></dt><br><br><br><br>
+    <dt><a>NEUROLOGY</a></dt><br>
+    <dt><a>GASTROENTEROLOGY</a><dt><br>
+    <dt><a>ORTHOPAEDICS</a></dt><br>
+    <dt><a>KIDNEY TRANSPLANT</a></dt><br>
+    <dt><a>CARDIAC SCIENCES</a></dt><br>
+    <dt><a>EAR NOSE THROAT</a></dt>
+    <dt> </dt>
+    </dl>
+  </div>
+
+  <div style="width:440px;height:400px;color:grey;float:left;margin-left:120px;margin-top:100px;border:1px solid#008CBA;"><br>
+  <h3 style="color:white;margin-left:25px">Opening Hours</h3><br><br><br>
+  <table style="margin-left:40px;">
+    <tr>
+      <td>Monday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td style="padding-left:75px;">8:00am-12:00pm</td>
+    </tr>
+
+
+
+
+  </table>
+  </div>
+</div>
+
+<!-- coding for last black div -->
+
+<div style="width:101.2%;height:70px;background-color:black;margin-left:-8px;color:#505050;font-family: Century Gothic;"><br>
+<pre style="float:left;background-color:black;border:none;">        Copyright ©2020 All rights reserved Powered By    </pre>
+<b style="color:#008CBA;cursor:pointer;float:left;padding-top:9.5px;">Quartz Technologies<b>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button  onclick="document.location = 'index.html'" class="last">Home</button>
+<button  onclick="document.location = 'about.html'" class="last">About</button>
+<button onclick="document.location = 'OurTeam.html'" class="last">Our Team</button>
+<button onclick="document.location = 'doctor.html'" class="last">Our Department</button>
+  <button onclick="document.location = 'contact.html'" class="last">Contact</button>
+</div>
+
+
+  </body>
+</html>
